@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agenda tu cita en DuocUC Sede San Joaquín. Reserva tu hora de atención para servicios estudiantiles de forma rápida.">
+    <meta property="og:title" content="Agendamiento DuocUC — Sede San Joaquín">
+    <meta property="og:description" content="Reserva tu hora de atención en DuocUC Sede San Joaquín. Agenda rápido, sin llamadas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="assets/og-image.svg">
+    <meta property="og:site_name" content="DuocUC Sede San Joaquín">
+    <title>Agendamiento DuocUC — Sede San Joaquín</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <nav aria-label="Navegación principal">
+            <a href="#hero" class="nav-brand"><img src="assets/logo-duoc.svg" alt="DuocUC" width="120"></a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menú"><span></span><span></span><span></span></button>
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="#escuelas">Escuelas</a></li>
+                <li><a href="#colaboradores">Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#agendamiento" class="nav-cta">Agendar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" aria-label="Bienvenida" class="animate-on-scroll">
+            <div class="hero-content">
+                <p class="hero-eyebrow">DuocUC Sede San Joaquín</p>
+                <h1 class="hero-title">Agenda tu cita<br>en línea</h1>
+                <p class="hero-subtitle">Reserva tu hora de atención sin llamadas ni filas. Elige fecha y horario desde cualquier dispositivo.</p>
+                <button id="hero-cta" class="btn-primary btn-large">Reservar hora</button>
+            </div>
+            <a href="#escuelas" class="hero-scroll-hint" aria-label="Bajar a escuelas">
+                <span class="scroll-arrow"></span>
+            </a>
+        </section>
+
+        <section id="escuelas" aria-label="Escuelas y carreras" class="animate-on-scroll">
+            <h2 class="section-title">Escuelas de la Sede</h2>
+            <p class="section-intro">Conoce las carreras disponibles en DuocUC San Joaquín</p>
+            <div class="schools-grid">
+                <article class="school-card"><h3>Informática y Telecomunicaciones</h3><ul><li>Ingeniería en Informática</li><li>Analista Programador</li><li>Ingeniería en Redes y Telecomunicaciones</li></ul></article>
+                <article class="school-card"><h3>Ingeniería y Recursos Naturales</h3><ul><li>Téc. Electricidad y Automatización Industrial</li><li>Ing. Maquinaria y Vehículos Pesados</li><li>Ing. Mantenimiento Industrial</li><li>Ing. Electricidad y Automatización Industrial</li><li>Ing. Mecánica Automotriz y Autotrónica</li><li>Téc. Electricidad y Energías Renovables</li><li>Téc. Mecánica Automotriz y Autotrónica</li><li>Téc. Maquinaria y Vehículos Pesados</li></ul></article>
+                <article class="school-card"><h3>Salud y Bienestar</h3><ul><li>Informática Biomédica</li><li>Téc. Radiodiagnóstico y Radioterapia</li><li>Téc. Laboratorio Clínico y Banco de Sangre</li><li>Téc. Enfermería</li><li>Téc. Química y Farmacia</li><li>Téc. Odontología</li></ul></article>
+            </div>
+        </section>
+
+        <section id="colaboradores" aria-label="Equipo de colaboradores" class="animate-on-scroll">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            <p class="section-intro">Conoce a los profesionales que te atenderán en cada servicio</p>
+
+            <div class="team-area">
+                <button class="team-area-toggle" aria-expanded="false" aria-controls="area-direccion"><span class="area-name">Dirección de Sede</span><span class="area-count">3 personas</span><svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+                <div id="area-direccion" class="team-area-panel" hidden><div class="team-grid">
+                    <article class="team-card team-card--coordinator"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=68" alt="Director de Sede" width="80" height="80"></div><div class="team-info"><h4>Por confirmar</h4><span class="team-role">Director de Sede</span><span class="team-area-label">Dirección de Sede</span><p class="team-desc">Reunión para tratar inquietudes sobre tu proceso formativo.</p><span class="team-duration">15 min</span></div><span class="team-badge">Director</span></article>
+                    <article class="team-card team-card--coordinator"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=44" alt="Subdirectora Académica" width="80" height="80"></div><div class="team-info"><h4>Por confirmar</h4><span class="team-role">Subdirectora Académica</span><span class="team-area-label">Dirección de Sede</span><p class="team-desc">Orientación académica y temas sobre tu proceso formativo.</p><span class="team-duration">30 min</span></div><span class="team-badge">Subdirectora</span></article>
+                    <article class="team-card team-card--coordinator"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=52" alt="Subdirector Desarrollo Estudiantil" width="80" height="80"></div><div class="team-info"><h4>Por confirmar</h4><span class="team-role">Subdirector de Desarrollo Estudiantil y Titulados</span><span class="team-area-label">Dirección de Sede</span><p class="team-desc">Orientación sobre tu experiencia universitaria.</p><span class="team-duration">30 min</span></div><span class="team-badge">Subdirector</span></article>
+                </div></div>
+            </div>
+
+            <div class="team-area">
+                <button class="team-area-toggle" aria-expanded="false" aria-controls="area-academica"><span class="area-name">Coordinación Académica</span><span class="area-count">11 personas</span><svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+                <div id="area-academica" class="team-area-panel" hidden><div class="team-grid">
+                    <article class="team-card team-card--coordinator"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=25" alt="Inés Sandoval" width="80" height="80"></div><div class="team-info"><h4>Inés Sandoval</h4><span class="team-role">Coordinadora General Académica (CGA)</span><span class="team-area-label">Coordinación Académica</span><p class="team-desc">Jefa de coordinadores. Orientación académica general.</p><span class="team-duration">15 min</span><a href="mailto:isandovals@duoc.cl" class="team-email">isandovals@duoc.cl</a></div><span class="team-badge">CGA</span></article>
+                    <article class="team-card team-card--coordinator"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=57" alt="Rodrigo Mujica" width="80" height="80"></div><div class="team-info"><h4>Rodrigo Mujica</h4><span class="team-role">Coordinador General Vespertino (CGV)</span><span class="team-area-label">Coordinación Académica</span><p class="team-desc">Jefe de coordinadores jornada vespertina.</p><span class="team-duration">15 min</span><a href="mailto:hmujica@duoc.cl" class="team-email">hmujica@duoc.cl</a></div><span class="team-badge">CGV</span></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=10" alt="Ana Guerrero" width="80" height="80"></div><div class="team-info"><h4>Ana Guerrero</h4><span class="team-role">Coordinadora de Carrera</span><span class="team-duration">15 min</span><a href="mailto:aguerreroc@duoc.cl" class="team-email">aguerreroc@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=32" alt="Daniela Bustamante" width="80" height="80"></div><div class="team-info"><h4>Daniela Bustamante</h4><span class="team-role">Coordinadora de Carrera</span><span class="team-duration">15 min</span><a href="mailto:dbustamante@duoc.cl" class="team-email">dbustamante@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=15" alt="Diego Casanova" width="80" height="80"></div><div class="team-info"><h4>Diego Casanova</h4><span class="team-role">Coordinador de Carrera</span><span class="team-duration">15 min</span><a href="mailto:dcasanovaz@duoc.cl" class="team-email">dcasanovaz@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=47" alt="Javiera Quijada" width="80" height="80"></div><div class="team-info"><h4>Javiera Quijada</h4><span class="team-role">Coordinadora de Carrera</span><span class="team-duration">15 min</span><a href="mailto:jquijadar@duoc.cl" class="team-email">jquijadar@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=41" alt="Johanna Flores" width="80" height="80"></div><div class="team-info"><h4>Johanna Flores</h4><span class="team-role">Coordinadora de Carrera</span><span class="team-duration">15 min</span><a href="mailto:jflores@duoc.cl" class="team-email">jflores@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=59" alt="Juan Manuel Alarcón" width="80" height="80"></div><div class="team-info"><h4>Juan Manuel Alarcón</h4><span class="team-role">Coordinador de Carrera</span><span class="team-duration">15 min</span><a href="mailto:jalarconf@duoc.cl" class="team-email">jalarconf@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=36" alt="Melissa Vasquez" width="80" height="80"></div><div class="team-info"><h4>Melissa Vasquez</h4><span class="team-role">Coordinadora de Carrera</span><span class="team-duration">15 min</span><a href="mailto:mvasquezp@duoc.cl" class="team-email">mvasquezp@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=28" alt="Romina Nuñez" width="80" height="80"></div><div class="team-info"><h4>Romina Nuñez</h4><span class="team-role">Coordinadora de Carrera</span><span class="team-duration">15 min</span><a href="mailto:rnuneza@duoc.cl" class="team-email">rnuneza@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=49" alt="Marcela Garcés" width="80" height="80"></div><div class="team-info"><h4>Marcela Garcés</h4><span class="team-role">Coordinadora de Desarrollo Laboral</span><p class="team-desc">Asesoría personalizada en CV y desarrollo profesional.</p><span class="team-duration">30 min</span><a href="mailto:mgarces_manpower@externos.duoc.cl" class="team-email">mgarces_manpower@externos.duoc.cl</a></div></article>
+                </div></div>
+            </div>
+
+            <div class="team-area">
+                <button class="team-area-toggle" aria-expanded="false" aria-controls="area-bienestar"><span class="area-name">Desarrollo Estudiantil y Bienestar</span><span class="area-count">2 servicios</span><svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+                <div id="area-bienestar" class="team-area-panel" hidden><div class="team-grid">
+                    <article class="team-card team-card--coordinator"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=26" alt="Coordinadora Bienestar" width="80" height="80"></div><div class="team-info"><h4>Por confirmar</h4><span class="team-role">Coordinadora de Bienestar Estudiantil</span><span class="team-area-label">Programa Salud Mental</span><p class="team-desc">Orientación y acceso al Programa de Salud Mental e Inclusión.</p><span class="team-duration">15 min</span></div><span class="team-badge">Coordinadora</span></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=38" alt="Orientador PAEDIS" width="80" height="80"></div><div class="team-info"><h4>Por confirmar</h4><span class="team-role">Orientador(a) Programa PAEDIS</span><p class="team-desc">Acompañamiento a Estudiantes en Situación de Discapacidad.</p><span class="team-duration">30 min</span></div></article>
+                </div></div>
+            </div>
+
+            <div class="team-area">
+                <button class="team-area-toggle" aria-expanded="false" aria-controls="area-laboral"><span class="area-name">Desarrollo Laboral y Prácticas</span><span class="area-count">3 personas</span><svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+                <div id="area-laboral" class="team-area-panel" hidden><div class="team-grid">
+                    <article class="team-card team-card--coordinator"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=20" alt="Francisca Rodriguez" width="80" height="80"></div><div class="team-info"><h4>Francisca Rodriguez</h4><span class="team-role">Coordinadora de Prácticas</span><span class="team-area-label">Asesorías Prácticas</span><p class="team-desc">Orientación sobre requisitos, documentación y plazos para tu práctica.</p><span class="team-duration">15 min</span><a href="mailto:frodriguez@duoc.cl" class="team-email">frodriguez@duoc.cl</a></div><span class="team-badge">Coordinadora</span></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=5" alt="Marigarley Vasquez" width="80" height="80"></div><div class="team-info"><h4>Marigarley Vasquez</h4><span class="team-role">Asistente Prácticas Clínicas</span><span class="team-duration">15 min</span><a href="mailto:mavasquez@duoc.cl" class="team-email">mavasquez@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=31" alt="Soledad Silva" width="80" height="80"></div><div class="team-info"><h4>Soledad Silva</h4><span class="team-role">Asistente Prácticas Clínicas</span><span class="team-duration">15 min</span><a href="mailto:ssilva@duoc.cl" class="team-email">ssilva@duoc.cl</a></div></article>
+                </div></div>
+            </div>
+
+            <div class="team-area">
+                <button class="team-area-toggle" aria-expanded="false" aria-controls="area-admin"><span class="area-name">Apoyo Administrativo</span><span class="area-count">4 personas</span><svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+                <div id="area-admin" class="team-area-panel" hidden><div class="team-grid">
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=43" alt="Jacqueline Saavedra" width="80" height="80"></div><div class="team-info"><h4>Jacqueline Saavedra</h4><span class="team-role">Secretaria</span><a href="mailto:jsaavedras@duoc.cl" class="team-email">jsaavedras@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=39" alt="Jenniffer Velasquez" width="80" height="80"></div><div class="team-info"><h4>Jenniffer Velasquez</h4><span class="team-role">Secretaria</span><a href="mailto:jvelasquezc@duoc.cl" class="team-email">jvelasquezc@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=48" alt="María Angelica Correa" width="80" height="80"></div><div class="team-info"><h4>María Angelica Correa</h4><span class="team-role">Secretaria</span><a href="mailto:mcorread@duoc.cl" class="team-email">mcorread@duoc.cl</a></div></article>
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=16" alt="Virginia Contreras" width="80" height="80"></div><div class="team-info"><h4>Virginia Contreras</h4><span class="team-role">Secretaria</span><a href="mailto:vcontreras@duoc.cl" class="team-email">vcontreras@duoc.cl</a></div></article>
+                </div></div>
+            </div>
+
+            <div class="team-area">
+                <button class="team-area-toggle" aria-expanded="false" aria-controls="area-deportes"><span class="area-name">Servicios Deportivos</span><span class="area-count">1 servicio</span><svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+                <div id="area-deportes" class="team-area-panel" hidden><div class="team-grid">
+                    <article class="team-card"><div class="team-avatar"><img src="https://i.pravatar.cc/120?img=60" alt="Cancha Sede" width="80" height="80"></div><div class="team-info"><h4>Cancha Sede</h4><span class="team-role">Reserva de cancha deportiva</span><p class="team-desc">Utiliza calzado adecuado y respeta el reglamento de uso del recinto.</p><span class="team-duration">1 hora</span></div></article>
+                </div></div>
+            </div>
+        </section>
+
+        <section id="agendamiento" aria-label="Agendar cita" class="animate-on-scroll">
+            <div class="booking-section">
+                <h2>¿Listo para agendar?</h2>
+                <p>Selecciona tu servicio, fecha y horario en el sistema de reservas.</p>
+                <button id="open-booking" class="btn-primary btn-large">Abrir sistema de reservas</button>
+            </div>
+            <noscript><p style="text-align:center;padding:1rem;"><a href="https://outlook.office365.com/book/DuocUCSedeAntonioVaras1@duoc.cl/?ismsaljsauthenabled=true" target="_blank" rel="noopener" style="color:#FFB800;">Agendar cita (enlace directo)</a></p></noscript>
+        </section>
+
+        <section id="contacto" aria-label="Directorio de contacto" class="animate-on-scroll">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-grid">
+                <article class="contact-card"><svg class="card-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><h3>Dirección</h3><p>Av. Vicuña Mackenna 4917<br>Metro San Joaquín, Santiago, Chile</p><a href="https://www.google.com/maps/search/Av.+Vicu%C3%B1a+Mackenna+4917,+San+Joaqu%C3%ADn,+Santiago,+Chile" target="_blank" rel="noopener" class="card-action">Ver en mapa →</a></article>
+                <article class="contact-card"><svg class="card-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><h3>Teléfonos</h3><p><a href="tel:+56225606700">+56 2 2560 6700</a> <small>General</small></p><p><a href="tel:+5625606732">+56 2 5606 732</a> <small>Punto Estudiantil</small></p></article>
+                <article class="contact-card"><svg class="card-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><h3>Horarios</h3><p>Lun — Vie: <strong>08:30 – 22:30</strong></p><p>Sáb: <strong>09:00 – 14:00</strong></p></article>
+                <article class="contact-card"><svg class="card-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFB800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><h3>Web oficial</h3><a href="https://www.duoc.cl/sedes/sede-san-joaquin" target="_blank" rel="noopener">duoc.cl/sedes/sede-san-joaquin</a></article>
+            </div>
+        </section>
+
+        <section id="faq" aria-label="Preguntas frecuentes" class="animate-on-scroll">
+            <h2 class="section-title">Preguntas frecuentes</h2>
+            <div class="accordion">
+                <div class="accordion-item"><h3><button class="accordion-btn" aria-expanded="false" aria-controls="faq-1">¿Cómo funciona el agendamiento?</button></h3><div id="faq-1" class="accordion-panel" hidden><p>Al hacer clic en "Reservar hora", se abre el sistema de Microsoft Bookings donde puedes seleccionar el servicio, fecha y horario.</p></div></div>
+                <div class="accordion-item"><h3><button class="accordion-btn" aria-expanded="false" aria-controls="faq-2">¿Qué servicios puedo agendar?</button></h3><div id="faq-2" class="accordion-panel" hidden><p>Servicios estudiantiles disponibles en la Sede San Joaquín. Las opciones aparecen en el sistema de reservas.</p></div></div>
+                <div class="accordion-item"><h3><button class="accordion-btn" aria-expanded="false" aria-controls="faq-3">¿Cómo cancelo o reagendo mi cita?</button></h3><div id="faq-3" class="accordion-panel" hidden><p>Revisa el correo de confirmación. Encontrarás un enlace para modificar o cancelar tu reserva.</p></div></div>
+                <div class="accordion-item"><h3><button class="accordion-btn" aria-expanded="false" aria-controls="faq-4">¿Qué necesito para asistir?</button></h3><div id="faq-4" class="accordion-panel" hidden><p>Cédula de identidad o credencial de estudiante vigente. Llega unos minutos antes de tu hora.</p></div></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-brand"><img src="assets/logo-duoc.svg" alt="DuocUC" class="footer-logo" height="30"><p>Av. Vicuña Mackenna 4917, San Joaquín</p><p><a href="tel:+56225606700">+56 2 2560 6700</a></p></div>
+            <nav class="footer-nav" aria-label="Mapa del sitio"><h4>Navegación</h4><ul><li><a href="#hero">Inicio</a></li><li><a href="#escuelas">Escuelas</a></li><li><a href="#colaboradores">Equipo</a></li><li><a href="#contacto">Contacto</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
+            <div class="footer-social"><h4>Redes sociales</h4><div class="social-icons"><a href="#" data-social="facebook" aria-label="Facebook" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a><a href="#" data-social="instagram" aria-label="Instagram" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a><a href="#" data-social="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></div></div>
+        </div>
+        <p class="footer-credits">© 2026 DuocUC Sede San Joaquín</p>
+    </footer>
+
+    <!-- Botón subir -->
+    <a href="#hero" class="btn-scroll-top" id="btn-top" aria-label="Volver arriba" hidden>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </a>
+
+    <div id="booking-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <div class="modal-backdrop"></div>
+        <div class="modal-panel">
+            <header class="modal-header"><h2 id="modal-title">Reservar hora</h2><button class="modal-close" aria-label="Cerrar">&times;</button></header>
+            <div class="modal-body">
+                <iframe id="booking-iframe" title="Sistema de agendamiento Microsoft Bookings" frameborder="0"></iframe>
+                <div id="booking-fallback" hidden><p>El sistema de agendamiento está tardando en cargar.</p><a href="#" id="booking-fallback-link" target="_blank" rel="noopener" class="btn-primary">Abrir en nueva pestaña</a></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="60%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#FFB800" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#1A1A1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1A1A1A"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  
+  <!-- Gold accent line -->
+  <rect x="100" y="180" width="60" height="4" rx="2" fill="#FFB800"/>
+  
+  <!-- Text -->
+  <text x="100" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Agendamiento DuocUC</text>
+  <text x="100" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="400" fill="rgba(255,255,255,0.6)">Sede San Joaquín</text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="400" fill="rgba(255,255,255,0.5)">Reserva tu hora de atención en línea</text>
+  
+  <!-- Bottom bar -->
+  <rect x="0" y="610" width="1200" height="20" fill="#FFB800"/>
+  
+  <!-- DuocUC text mark -->
+  <text x="100" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFB800">duoc.cl/sedes/sede-san-joaquin</text>
+</svg>
