@@ -4,7 +4,7 @@
 // La URL debe ser completa y comenzar con https://
 // Ejemplo: 'https://bookings.cloud.microsoft/book/TuCorreo@duoc.cl/...'
 // ============================================================
-const BOOKING_URL = 'https://outlook.office365.com/book/DuocUCSedeAntonioVaras1@duoc.cl/?ismsaljsauthenabled=true';
+const BOOKING_URL = 'https://outlook.office.com/book/PginadeAgendaDuocUCSedeSanJoaquin@duoc.cl/?ismsaljsauthenabled';
 
 // ============================================================
 // CONFIGURACIÓN DE REDES SOCIALES
